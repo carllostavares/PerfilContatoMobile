@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+/*background:color image repeat position/size */
+background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color:#ffffffff;
+}
+
+#container{
+    width:360px;
+    margin: 56px auto 0px;
+
+}
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 112px;
+    border-radius: 50%;
+    border: 1px solid slategrey;
+}
+
+#profile p {
+
+    font-weight:500;
+    line-height:24px;
+    margin-top: 8px;
+}
+
+/*link*/
+
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px 24px;
+
+    background: rgba(255, 255, 255, 0.1 );
+    border: 1px solid rgba(255, 255, 255, 0.5 );
+    border-radius: 8px;
+
+    /*deixa a caixa com um tom fosco*/
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter:blur(4px);
+
+
+
+}   
+    
