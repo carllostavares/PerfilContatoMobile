@@ -17,6 +17,7 @@ body *{
 #container{
     width:360px;
     margin: 56px auto 0px;
+    padding: 0 24px;
 
 }
 #profile{
@@ -61,8 +62,16 @@ ul li a {
     /*deixa a caixa com um tom fosco*/
     backdrop-filter:blur(4px);
     -webkit-backdrop-filter:blur(4px);
+    /*retirar a formatação do link e ajustar a fonte*/
+    text-decoration: none;
+    font-weight: 500;
 
-
-
+    transition: background 0.5s;
 }   
     
+/*pseudo-selector*/
+ul li a:hover {
+    background: rgba(255, 255, 255, 0.5 );
+    border: 1.5px solid white; 
+}
+
