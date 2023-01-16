@@ -4,23 +4,30 @@ padding: 0;
 box-sizing: border-box;
 }
 
-
 :root {
     --text-color: white;
-    --bg-url: url(./assets/bg-mobile.jpg)
+    --bg-url: url(./assets/bg-mobile.jpg);
+    --stroke-color:rgba(255, 255, 255, 0.5 );
+    --surface-color:rgba(255, 255, 255, 0.1);
+    --surface-color-hover:rgba(255, 255, 255, 0.5 );
+    --hightligh-color:rgba(255, 255, 255, 0.2);
 }
+
 
 .light {
     --text-color:black;
-    --bg-url: url(./assets/bg-mobile-light.jpg)
-
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+    --stroke-color:rgba(0, 0, 0, 0.5);
+    --surface-color:rgb(0, 0, 0, 0.05);
+    --surface-color-hover:rgba(0, 0, 0, 0.2);
+    --hightligh-color:rgba(0, 0, 0, 0.1);
 }
+
 
 body{
 /*background:color image repeat position/size */
 background: var(--bg-url) no-repeat top center/cover;
 }
-
 
 body *{
     font-family: 'Inter', sans-serif;
@@ -31,8 +38,9 @@ body *{
     width:360px;
     margin: 56px auto 0px;
     padding: 0 24px;
-
 }
+
+/*PROFILE*/
 #profile{
     text-align: center;
     padding: 24px;
@@ -41,7 +49,7 @@ body *{
 #profile img {
     width: 112px;
     border-radius: 50%;
-    border: 1px solid slategrey;
+    border: 1px solid var(--stroke-color);
 }
 
 #profile p {
@@ -51,8 +59,18 @@ body *{
     margin-top: 8px;
 }
 
-/*link*/
+/*SWITCHH*/
+#switch button{
+    width: 32px;
+    height: 32px;
+    background: white url(./assets/moon-stars.svg) no-repeat  center;;
+    border: 0;
+    border-radius: 50%;
 
+
+}
+
+/*link*/
 ul {
     list-style: none;
 
@@ -68,8 +86,8 @@ ul li a {
 
     padding: 16px 24px;
 
-    background: rgba(255, 255, 255, 0.1 );
-    border: 1px solid rgba(255, 255, 255, 0.5 );
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
     border-radius: 8px;
 
     /*deixa a caixa com um tom fosco*/
@@ -84,7 +102,7 @@ ul li a {
     
 /*pseudo-selector*/
 ul li a:hover {
-    background: rgba(255, 255, 255, 0.5 );
+    background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color); 
 }
 
@@ -111,12 +129,13 @@ ul li a:hover {
 }
 
 #social-links a:hover{
-    background: rgba(255, 255, 255, 0.5 );
+    background:var(--hightligh-color);
     padding: 16px;
 }
 
 footer {
     padding: 24px 0;
     text-align: center;
+    font-weight: 500;
     font-size: 14px;
 }
