@@ -21,7 +21,7 @@ Onde foi modificado a meu gosto.
 
 Projetado pela nlw-10 Rocketseat
 
-- [Layout](https://www.figma.com/community/file/1169028343875283461)
+- [Layout](https://www.figma.com/file/7UXtquWFbhOyG8qX2NmxCk/DevLinks-(Community)?node-id=90%3A160&t=1BFWrdiJkw6ploMB-0)
 
 
 <p align="center">
