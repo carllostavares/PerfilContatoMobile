@@ -2,7 +2,10 @@
 
 ## 💻 Projeto
 
-Aplicação para participar de bolões da Copa do Mundo 2022.
+Programa exclusivo e gratuito, promovido pela rocketseat para ensino de tecnologias Web.
+
+Onde foi modificado a meu gosto.
+
 
 <p align="center">
 <img src=".github/imgProjetoPerfil.png">
@@ -13,17 +16,7 @@ Aplicação para participar de bolões da Copa do Mundo 2022.
 - HMTL
 - CSS
 - JavaScript
-
-## 🚀 Como executar
-
-Em todos os projetos, ao acessar a pasta, é preciso baixar os pacotes com o gerenciador de sua preferencia.
-
-Acesse a documentação de cada projeto:
-
-- [Backend](./server/README.md)
-- [Web](./web/README.md)
-- [Mobile](./mobile/README.md)
-
+*
 ## 🔖 Layout
 
 Projetado pela nlw-10 Rocketseat
