@@ -16,7 +16,7 @@ Onde foi modificado a meu gosto.
 - HMTL
 - CSS
 - JavaScript
-*
+
 ## 🔖 Layout
 
 Projetado pela nlw-10 Rocketseat
