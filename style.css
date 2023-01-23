@@ -178,7 +178,7 @@ footer {
     font-size: 14px;
 }
 
-/*MEDIA QUERIES*/
+/*MEDIA QUERIES- para mudar o background*/
 
 @media(min-width:700px;){
     :hoot{
@@ -186,6 +186,6 @@ footer {
     }
 
     .light {
-        --bg-url: url(./assetss/bg-descktop-light.jpg);
+        --bg-url:url(./assetss/bg-descktop-light.jpg);
     }
 }
