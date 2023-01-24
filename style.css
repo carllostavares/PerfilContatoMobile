@@ -90,11 +90,12 @@ body *{
     z-index: 1;/*COLOCA O BUTTON POR CIMA DO SPAN*/
     transform: translateY(-10%);/*ALINHANDO O POSICIONAMENTO ABSOLUTO DO BUTTON DENTRO
     DO SWITCH NO EIXO Y. PARA QUE ELE FIQUE DENTRO DO SPAN*/
+
+    animation: slide-back 0.4s;/*FAZ O BOTÃO SE MOVER DEVAGAR*/
 }
 
 .light #switch button {
-    right: 0;
-    left: initial;
+    animation: slide-in 0.4s forwards; /*FAZ O BOTAO DESLIZAR DEVAGAR E DEPOIS MANTEM AS ALTERAÇÕES*/
 }
 
 #switch span{/*AJUSTES DA CAIXA POR TRAS DO BOTAO*/
@@ -187,5 +188,24 @@ footer {
 
     .light {
         --bg-url:url(./assetss/bg-descktop-light.jpg);
+    }
+}
+
+/*ANIMAÇÃO*/
+@keyframes slide-in {
+    from {
+        left:0;
+    }
+    to {
+        left:50%;
+    }
+}
+
+@keyframes slide-back {
+    from {
+        left:50%;
+    }
+    to {
+        left:0;
     }
 }
