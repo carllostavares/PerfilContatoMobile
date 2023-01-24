@@ -98,6 +98,10 @@ body *{
     animation: slide-in 0.4s forwards;  /*FAZ O BOTAO DESLIZAR DEVAGAR E DEPOIS MANTEM AS ALTERAÇÕES*/
 }
 
+#switch button:hover {
+    outline: 8px solid var(--hightligh-color);
+}
+
 #switch span{/*AJUSTES DA CAIXA POR TRAS DO BOTAO*/
     display: block;
     width: 64px;
