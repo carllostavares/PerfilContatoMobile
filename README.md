@@ -7,7 +7,7 @@ Programa gratuito, promovido pela rocketseat para ensino de tecnologias Web.
 Onde foi feito por mim!
 
 <p align="center">
-<img src=".github/imgProjetoPerfil.png">
+<img src=".github/imgCapaPerfil.png">
 </p>
 
 ## ✨ Tecnologia
