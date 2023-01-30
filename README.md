@@ -6,6 +6,8 @@ Programa gratuito, promovido pela rocketseat para ensino de tecnologias Web.
 
 Onde foi feito por mim!
 
+A pagina "Sobre Mim" está em desenvolvimento !
+
 <p align="center">
 <img src=".github/imgCapaPerfil.png">
 </p>
