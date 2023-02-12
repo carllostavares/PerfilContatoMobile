@@ -23,7 +23,6 @@ box-sizing: border-box;
     --surface-color-hover:rgba(0, 0, 0, 0.2);
     --hightligh-color:rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/sun.svg);
-
 }
 
 
@@ -212,4 +211,21 @@ footer {
     to {
         left:0;
     }
+}
+
+
+/*>>>>>>>>>>>> PAGINA SOBRE MIM <<<<<<<<<<<<<*/
+
+.caixaSobreMim{
+    display: block
+    padding: 24px 10px; 
+}
+
+.imgSobreMim {
+    float:right;
+    max-width: 240px;
+    max-height: 240px;
+    border-radius: 8px;
+    margin:10px 10px 0 10px;
+
 }
