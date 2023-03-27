@@ -10,15 +10,15 @@ function toggleMode(){
 */
 
 //PEGAR A IMAGEM
-/* const img = document.querySelector("#profile img")
+ const img = document.querySelector("#profile img")
 
 //SUBSTITUIR A IMAGGEM
 if(html.classList.contains('light')) {
 //SE TIVER LIGHT MODE, ADICIONAR A IMAGEM LIGHT
-img.setAttribute('src', './assets/imgPerfilLight.jpg')
+img.setAttribute('src', './assets/imgPerfil.png')
 
 }else{
-    img.setAttribute('src', './assets/imgPerfil.')
-} */
+    img.setAttribute('src', './assets/imgPerfil.png')
+} 
 }
 //SE TIVER SEM O LIGHT MODE, MANTER A IMAGEM NORMAAL
