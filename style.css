@@ -184,7 +184,7 @@ footer {
 
 /*MEDIA QUERIES- para mudar o background*/
 
-@media(min-width:700px;){
+@media(min-width:700px){
     :hoot{
         --bg--url:url(./assets/bg-desktop.jpg);
     }
@@ -216,8 +216,8 @@ footer {
 
 /*>>>>>>>>>>>> PAGINA SOBRE MIM <<<<<<<<<<<<<*/
 
-.caixaSobreMim{
-    display: block
+.caixaSobreMim {
+    display: block;
     padding: 24px 10px; 
 }
 
