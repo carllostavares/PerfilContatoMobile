@@ -2,8 +2,6 @@
 
 ## 💻 Projeto
 
-Programa gratuito, promovido pela rocketseat para ensino de tecnologias Web.
-
 Onde foi feito por mim!
 
 Acesse: https://carllostavares.github.io/PerfilContatoMobile/
